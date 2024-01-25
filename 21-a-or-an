@@ -1,9 +1,4 @@
 public String aOrAn(String word) {
-    String result = myString1.startsWith(word);
-    If (result =='a' || result =='e' || result =='i' || result =='o' || result =='u' {
-        return 'an'+''+word;
-    }
-    else if{
-        return 'a'+' '+word;
-    }
+    List<String> vowels = new List<String>{'a', 'e', 'i', 'o', 'u'};
+    return vowels.contains(word.substring(0, 1)) ? 'an ' + word : 'a ' + word;
 }
