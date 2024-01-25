@@ -1,5 +1,5 @@
 public String aOrAn(String word) {
-    Public Boolean result = myString1.startsWith(word);
+    Public String result = myString1.startsWith(word);
     If (result ='a' || result ='e' || result ='i' || result ='o' || result ='u' {
         return 'an' & word;
     }
