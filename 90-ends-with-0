@@ -1,6 +1,6 @@
 public Boolean isEndWithZero(Integer num){
     // Public Integer remainder = Math.Mod(num, 10);
-    If(Math.Mod(num, 10) == 0 {
+    If(Math.mod(num,10) == 0) {
         return true;
     }
     return false;
