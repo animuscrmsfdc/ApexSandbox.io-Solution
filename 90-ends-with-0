@@ -3,7 +3,5 @@ public Boolean isEndWithZero(Integer num){
     If(Math.Mod(num, 10) == 0 {
         return true;
     }
-    else {
-        return false;
-    }
+    return false;
 }
