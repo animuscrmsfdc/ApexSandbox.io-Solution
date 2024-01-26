@@ -6,6 +6,4 @@ public Boolean isEndWithZero(Integer num){
     else {
         return false;
     }
-
-    )
 }
