@@ -1,5 +1,5 @@
 public Boolean isEndWithZero(Integer num){
-    Integer remainder = Math.Mod(num, 2);
+    Integer remainder = Math.Mod(num, 10);
     If(remainder == 0 {
         return true;
     }
