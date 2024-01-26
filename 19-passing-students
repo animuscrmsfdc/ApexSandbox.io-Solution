@@ -7,11 +7,10 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
         }
         else if(passedAssignments && passedProject) {
             return true;
+        }    
+        else {
+            return false;
         }
-    }    
-    else {
-        return false;
-    }
 }
 
 
