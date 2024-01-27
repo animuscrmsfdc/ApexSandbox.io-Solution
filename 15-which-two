@@ -8,5 +8,5 @@ public String whichTwo(Integer a, Integer b, Integer c) {
         ele if(b+c == a){
             return 'a';
         }
-
+        return '';
 }
